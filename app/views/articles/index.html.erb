@@ -1,70 +1,12 @@
-<h1>Articles#index</h1>
-<p>Find me in app/views/articles/index.html.erb</p>
-<h1>diamond</h1>
-<h1>diamond</h1>
-<ul> 
-<li>diamond</li>
-<li>diamond</li>
-<li>diamond</li>
-<li>diamond</li>
-</ul>
 <h1>Articles</h1>
 
 <ul>
   <% @articles.each do |article| %>
-    <li>
-      <%= article.title %>
-      <%= article.body %>
-    </li>
-  <% end %>
-</ul>
-<h1>Articles</h1>
-
-<ul>
-  <% @articles.each do |article| %>
-    <li>
-      <a href="/articles/<%= article.id %>">
-        <%= article.title %>
-      </a>
-    </li>
-  <% end %>
-</ul>
-
-
-<h1>Resourceful Routing </h1>
-
-
-<ul>
-  <% @articles.each do |article| %>
-    <li>
-      <a href="<%= article_path(article) %>">
-        <%= article.title %>
-      </a>
-    </li>
-  <% end %>
-</ul>
-
-
-
-<br>
-<h1>Link to </h1>
-
-
-<ul>
-  <% @articles.each do |article| %>
-    <li>
-      <%= link_to article.title, article %>
-    </li>
-  <% end %>
-</ul>
-
-<h1>Articles</h1>
-
-<ul>
-  <% @articles.each do |article| %>
-    <li>
-      <%= link_to article.title, article %>
-    </li>
+    <% unless article.archived? %>
+      <li>
+        <%= link_to article.title, article %>
+      </li>
+    <% end %>
   <% end %>
 </ul>
 
