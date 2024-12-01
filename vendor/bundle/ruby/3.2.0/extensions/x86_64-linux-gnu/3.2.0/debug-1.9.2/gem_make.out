@@ -1,0 +1,19 @@
+current directory: /home/sattrawoot302004/work_space/Blog/vendor/bundle/ruby/3.2.0/gems/debug-1.9.2/ext/debug
+/usr/bin/ruby3.2 -I/usr/lib/ruby/vendor_ruby extconf.rb
+creating Makefile
+
+current directory: /home/sattrawoot302004/work_space/Blog/vendor/bundle/ruby/3.2.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241201-587-upfsqi sitelibdir\=./.gem.20241201-587-upfsqi clean
+
+current directory: /home/sattrawoot302004/work_space/Blog/vendor/bundle/ruby/3.2.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241201-587-upfsqi sitelibdir\=./.gem.20241201-587-upfsqi
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/sattrawoot302004/work_space/Blog/vendor/bundle/ruby/3.2.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241201-587-upfsqi sitelibdir\=./.gem.20241201-587-upfsqi install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20241201-587-upfsqi/debug
+
+current directory: /home/sattrawoot302004/work_space/Blog/vendor/bundle/ruby/3.2.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241201-587-upfsqi sitelibdir\=./.gem.20241201-587-upfsqi clean
