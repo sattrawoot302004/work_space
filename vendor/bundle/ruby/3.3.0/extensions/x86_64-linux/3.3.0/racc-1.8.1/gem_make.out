@@ -1,0 +1,18 @@
+current directory: /home/sattrawoot302004/work_space/Blog/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+/home/sattrawoot302004/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/sattrawoot302004/work_space/Blog/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241201-13334-4r8ryl sitelibdir\=./.gem.20241201-13334-4r8ryl clean
+
+current directory: /home/sattrawoot302004/work_space/Blog/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241201-13334-4r8ryl sitelibdir\=./.gem.20241201-13334-4r8ryl
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/sattrawoot302004/work_space/Blog/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241201-13334-4r8ryl sitelibdir\=./.gem.20241201-13334-4r8ryl install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20241201-13334-4r8ryl/racc
+
+current directory: /home/sattrawoot302004/work_space/Blog/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20241201-13334-4r8ryl sitelibdir\=./.gem.20241201-13334-4r8ryl clean

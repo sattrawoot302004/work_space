@@ -1,0 +1,18 @@
+current directory: /home/sattrawoot302004/work_space/Blog/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+/home/sattrawoot302004/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/sattrawoot302004/work_space/Blog/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20241201-13334-sjsd8n sitelibdir\=./.gem.20241201-13334-sjsd8n clean
+
+current directory: /home/sattrawoot302004/work_space/Blog/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20241201-13334-sjsd8n sitelibdir\=./.gem.20241201-13334-sjsd8n
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/sattrawoot302004/work_space/Blog/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20241201-13334-sjsd8n sitelibdir\=./.gem.20241201-13334-sjsd8n install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20241201-13334-sjsd8n/skiptrace/internal
+
+current directory: /home/sattrawoot302004/work_space/Blog/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20241201-13334-sjsd8n sitelibdir\=./.gem.20241201-13334-sjsd8n clean

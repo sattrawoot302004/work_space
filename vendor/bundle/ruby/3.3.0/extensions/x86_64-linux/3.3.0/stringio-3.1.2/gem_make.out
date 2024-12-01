@@ -1,0 +1,18 @@
+current directory: /home/sattrawoot302004/work_space/Blog/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.2/ext/stringio
+/home/sattrawoot302004/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/sattrawoot302004/work_space/Blog/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241201-13334-2w50jg sitelibdir\=./.gem.20241201-13334-2w50jg clean
+
+current directory: /home/sattrawoot302004/work_space/Blog/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241201-13334-2w50jg sitelibdir\=./.gem.20241201-13334-2w50jg
+compiling stringio.c
+linking shared-object stringio.so
+
+current directory: /home/sattrawoot302004/work_space/Blog/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241201-13334-2w50jg sitelibdir\=./.gem.20241201-13334-2w50jg install
+/usr/bin/install -c -m 0755 stringio.so ./.gem.20241201-13334-2w50jg
+
+current directory: /home/sattrawoot302004/work_space/Blog/vendor/bundle/ruby/3.3.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241201-13334-2w50jg sitelibdir\=./.gem.20241201-13334-2w50jg clean
