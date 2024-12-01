@@ -31,3 +31,29 @@
 </ul>
 
 
+<h1>Resourceful Routing </h1>
+
+
+<ul>
+  <% @articles.each do |article| %>
+    <li>
+      <a href="<%= article_path(article) %>">
+        <%= article.title %>
+      </a>
+    </li>
+  <% end %>
+</ul>
+
+
+
+<br>
+<h1>Link to </h1>
+
+
+<ul>
+  <% @articles.each do |article| %>
+    <li>
+      <%= link_to article.title, article %>
+    </li>
+  <% end %>
+</ul>
